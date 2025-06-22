@@ -84,3 +84,25 @@ Acts as the voice of the user and aligns development with business goals.
 ---
 
 Each role plays a crucial part in ensuring the successful delivery of a scalable, high-quality, and user-centric product.
+
+## 🧰 Technology Stack
+
+The Airbnb Clone Project utilizes a modern and scalable technology stack to deliver a responsive, secure, and feature-rich web application. Each technology plays a specific role in the overall architecture:
+
+| Technology      | Purpose                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Django**        | A high-level Python web framework used to build robust RESTful APIs and handle backend logic efficiently. |
+| **PostgreSQL**    | A powerful, open-source relational database system used to store and manage structured data like user profiles, bookings, and listings. |
+| **GraphQL**       | A query language for APIs that enables clients to request exactly the data they need, improving efficiency and flexibility over REST. |
+| **React.js**      | A frontend JavaScript library for building dynamic and interactive user interfaces, such as property listings and booking forms. |
+| **HTML5/CSS3**    | Markup and styling technologies used to structure and design the application’s layout and appearance. |
+| **JavaScript (ES6+)** | Core scripting language for adding interactivity and logic on the frontend. |
+| **Node.js**       | (Optional, if used with Django) Can handle microservices, real-time features, or middleware integrations. |
+| **Docker**        | Used to containerize the application and ensure consistency across development, testing, and production environments. |
+| **Git & GitHub**  | Version control tools used for tracking changes, collaborating with the team, and deploying project updates. |
+| **Heroku / Render / Vercel** | Cloud platforms used for hosting and deploying the application. |
+
+---
+
+This stack ensures a seamless flow from data modeling and API handling on the backend to responsive design and interaction on the frontend, supporting both development and future scaling.
+
