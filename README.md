@@ -106,3 +106,83 @@ The Airbnb Clone Project utilizes a modern and scalable technology stack to deli
 
 This stack ensures a seamless flow from data modeling and API handling on the backend to responsive design and interaction on the frontend, supporting both development and future scaling.
 
+## 🗄️ Database Design
+
+The Airbnb Clone Project uses a relational data model to manage users, listings, bookings, reviews, and payments. Below are the key entities, their core fields, and how they relate to each other.
+
+### 🧑 Users
+Stores information about platform users, including both guests and hosts.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `full_name`
+- `email` (unique)
+- `password_hash`
+- `role` (guest or host)
+
+### 🏠 Properties
+Represents properties listed by hosts on the platform.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `host_id` (Foreign Key → Users)
+- `title`
+- `location`
+- `price_per_night`
+
+**Relationship:**  
+A user (host) can create multiple properties.
+
+### 📅 Bookings
+Stores information about reservation activity between users and properties.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `start_date`
+- `end_date`
+- `status` (confirmed, cancelled, etc.)
+
+**Relationship:**  
+A booking is created by a user for a specific property.
+
+### 🌟 Reviews
+Captures feedback submitted by users after a booking.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `rating` (1–5)
+- `comment`
+
+**Relationship:**  
+A user can leave a review for a property they have booked.
+
+### 💳 Payments
+Tracks payment transactions related to bookings.
+
+**Key Fields:**
+- `id` (Primary Key)
+- `booking_id` (Foreign Key → Bookings)
+- `amount`
+- `payment_method`
+- `status` (paid, pending, failed)
+
+**Relationship:**  
+Each payment is linked to a booking and must be completed to confirm a reservation.
+
+---
+
+### 🔗 Entity Relationships Summary
+
+- A **User** can own multiple **Properties** (if a host).
+- A **User** can make multiple **Bookings**.
+- A **Booking** is linked to one **Property** and one **User**.
+- A **Booking** can have one **Payment**.
+- A **User** can write multiple **Reviews**, each tied to a **Property** they booked.
+
+This design ensures data consistency and supports key functionalities like searching properties, processing payments, and managing user feedback.
+
+
