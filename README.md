@@ -185,4 +185,34 @@ Each payment is linked to a booking and must be completed to confirm a reservati
 
 This design ensures data consistency and supports key functionalities like searching properties, processing payments, and managing user feedback.
 
+## 🚀 Feature Breakdown
+
+This section outlines the core features that form the foundation of the Airbnb Clone Project. Each feature is designed to contribute to a seamless and user-friendly experience for both guests and hosts.
+
+### 👤 User Management
+Users can sign up, log in, update their profile, and log out securely. The system supports different roles (guests and hosts), enabling tailored experiences based on the user type.
+
+### 🏠 Property Management
+Hosts can list new properties, upload images, and manage listing details like pricing, amenities, and availability. This allows them to attract guests and monetize their spaces.
+
+### 📅 Booking System
+Guests can view availability, select dates, and book properties in real-time. This feature handles date validation, avoids double bookings, and stores reservation history.
+
+### 💳 Payment Integration
+Secure payment processing allows users to pay for their bookings using credit/debit cards or other methods. Payments are tracked and linked to booking records for transparency.
+
+### 🌟 Review & Rating System
+After a completed stay, guests can rate and review properties. This builds trust in the platform and helps future guests make informed decisions based on authentic feedback.
+
+### 🔍 Search and Filter
+Users can search for properties by location, dates, price range, and other filters. This enhances the browsing experience and helps users quickly find suitable accommodations.
+
+### 📬 Notifications (Optional/Advanced)
+Email or in-app notifications are used to confirm bookings, alert hosts about new reservations, and remind users of upcoming stays.
+
+---
+
+Each of these features is essential to delivering a functional, interactive, and real-world booking experience, closely replicating the core functionality of platforms like Airbnb.
+
+
 
