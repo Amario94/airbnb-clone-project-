@@ -214,5 +214,66 @@ Email or in-app notifications are used to confirm bookings, alert hosts about ne
 
 Each of these features is essential to delivering a functional, interactive, and real-world booking experience, closely replicating the core functionality of platforms like Airbnb.
 
+## 🔐 API Security
+
+Ensuring the security of the application and its users is a top priority in the Airbnb Clone Project. APIs serve as the backbone of communication between the frontend and backend, and protecting them is critical to maintaining data integrity, privacy, and trust.
+
+### 🔑 Authentication
+**Description:**  
+All users must verify their identity through secure login methods before accessing protected routes. We will implement token-based authentication (e.g., JWT - JSON Web Tokens).
+
+**Importance:**  
+Authentication prevents unauthorized users from accessing personal data, user accounts, or sensitive actions like booking and payments.
+
+---
+
+### 🛡️ Authorization
+**Description:**  
+Role-based access control (RBAC) ensures that users only perform actions allowed by their role (e.g., guests cannot edit other users’ listings).
+
+**Importance:**  
+Authorization protects system integrity by restricting access to features based on user roles, preventing misuse or data manipulation.
+
+---
+
+### 🚦 Rate Limiting
+**Description:**  
+API endpoints will be protected with rate limiting to prevent abuse (e.g., too many login attempts, excessive search queries).
+
+**Importance:**  
+Rate limiting reduces the risk of brute force attacks, service overload, and denial-of-service (DoS) scenarios.
+
+---
+
+### 🧊 Data Encryption
+**Description:**  
+Sensitive data (like passwords and payment details) will be encrypted in transit (via HTTPS) and at rest (e.g., hashed passwords using bcrypt).
+
+**Importance:**  
+Encryption ensures that even if data is intercepted or accessed improperly, it remains unreadable and protected from theft.
+
+---
+
+### 📦 Input Validation & Sanitization
+**Description:**  
+All incoming data will be validated and sanitized on both frontend and backend to prevent SQL injection, XSS, and other injection attacks.
+
+**Importance:**  
+Sanitization protects the application from malicious input that could compromise functionality or leak sensitive data.
+
+---
+
+### 💳 Secure Payments
+**Description:**  
+Payments will be processed through trusted third-party gateways (e.g., Stripe or Paystack), never storing raw card data directly.
+
+**Importance:**  
+Using secure and compliant gateways ensures financial transactions are protected and meets industry security standards (e.g., PCI-DSS).
+
+---
+
+These security measures are essential to safeguarding users, maintaining platform integrity, and building a trusted online booking experience.
+
+
 
 
