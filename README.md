@@ -1,9 +1,9 @@
 # airbnb-clone-project-
-## 👨‍💻 Team Roles
+## Team Roles
 
 A successful full-stack project requires a diverse and well-coordinated team. Each role contributes a unique skillset critical to the development, deployment, and maintenance of the Airbnb Clone Project. Below are the key team roles and their responsibilities:
 
-### 🔧 Backend Developer
+###  Backend Developer
 Responsible for building and maintaining the server-side logic of the application.  
 **Key Duties:**
 - Develop RESTful APIs using Node.js and Express
