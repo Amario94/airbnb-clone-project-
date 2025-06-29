@@ -85,7 +85,7 @@ Acts as the voice of the user and aligns development with business goals.
 
 Each role plays a crucial part in ensuring the successful delivery of a scalable, high-quality, and user-centric product.
 
-## 🧰 Technology Stack
+## Technology Stack
 
 The Airbnb Clone Project utilizes a modern and scalable technology stack to deliver a responsive, secure, and feature-rich web application. Each technology plays a specific role in the overall architecture:
 
