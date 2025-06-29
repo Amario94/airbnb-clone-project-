@@ -105,6 +105,32 @@ The Airbnb Clone Project utilizes a modern and scalable technology stack to deli
 ---
 
 This stack ensures a seamless flow from data modeling and API handling on the backend to responsive design and interaction on the frontend, supporting both development and future scaling.
+## 👥 Team Roles
+
+In this project, each team member may assume one or more of the following roles. These roles help divide responsibilities and ensure the project flows smoothly from planning to deployment.
+
+### 1. **Backend Developer**
+Responsible for implementing the application logic, APIs, and server-side functionality. Handles user authentication, request handling, and interaction with the database.
+
+### 2. **Frontend Developer**
+Designs and implements the user interface using HTML, CSS, and JavaScript. Works closely with backend developers to integrate APIs and ensure the interface is user-friendly and responsive.
+
+### 3. **Database Administrator (DBA)**
+Manages the structure and maintenance of the database. Responsible for designing data models, creating and optimizing queries, ensuring data consistency, and performing backups.
+
+### 4. **DevOps Engineer**
+Handles the infrastructure, deployment, and automation tasks. Sets up continuous integration/continuous deployment (CI/CD) pipelines and manages hosting environments.
+
+### 5. **Project Manager (PM)**
+Oversees the progress of the project, coordinates tasks among team members, manages timelines, and ensures that all project goals are met. Acts as the communication bridge between the team and stakeholders.
+
+### 6. **QA Tester**
+Tests the application for bugs, usability, and performance. Writes test cases, performs automated and manual testing, and reports issues for resolution.
+
+### 7. **UI/UX Designer**
+Focuses on creating intuitive user flows and aesthetically pleasing interfaces. Conducts user research, designs wireframes/prototypes, and ensures that the product offers a seamless experience.
+
+
 
 ## 🗄️ Database Design
 
